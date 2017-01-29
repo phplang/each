@@ -1,0 +1,27 @@
+{
+  "name": "phplang/each",
+  "description": "Userspace implementation global each() function (deprecated in PHP 7.2)",
+  "type": "library",
+  "keywords": [
+    "compat",
+    "deprecation"
+  ],
+  "homepage": "https://github.com/phplang/each",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Sara Golemon",
+      "email": "pollita@php.net",
+      "homepage": "https://twitter.com/SaraMG",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
